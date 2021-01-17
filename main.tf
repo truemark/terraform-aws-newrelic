@@ -1,5 +1,6 @@
 data "aws_caller_identity" "current" {}
 
+
 locals {
   newrelic_account_id = "754728514883"
 }
@@ -15,7 +16,7 @@ data "aws_iam_policy_document" "assume_role" {
     condition {
       test = "StringEquals"
       values = [
-        "New Relic Account ID"
+        var.newrelic_account_id
       ]
       variable = "sts:ExternalId"
     }

@@ -1,7 +1,3 @@
-output "newrelic_account_id" {
-  value = local.newrelic_account_id
-}
-
 output "role_arn" {
   value = aws_iam_role.newrelic.arn
 }

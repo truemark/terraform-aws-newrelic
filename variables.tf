@@ -1,3 +1,5 @@
+variable "newrelic_account_id" {}
+
 variable "name" {
   description = "Name of the IAM role to create"
   default = "newrelic"
