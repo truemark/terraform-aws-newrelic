@@ -1,5 +1,7 @@
 # NewRelic AWS Integration 
 
+**WARNING: This project is deprecated and no longer maintained!!**
+
 This terraform module creates the resources required to connect NewRelic to an AWS account.
 
 ## Quick Links
